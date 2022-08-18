@@ -1,0 +1,17 @@
+import main;
+
+
+def test():
+    arr1 = [2, 1, 5, 1, 3, 2]
+    arr2 = [2,3,4,1,5]
+    arr3 = []
+    arr4 = [1]
+
+
+    print(main.max_sub_array_of_size_k(3, arr1))
+    print(main.max_sub_array_of_size_k(2, arr2))
+    print(main.max_sub_array_of_size_k(10, arr3))
+    print(main.max_sub_array_of_size_k(0, arr4))
+
+if __name__ == "__main__":
+    test()
